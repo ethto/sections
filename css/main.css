@@ -9,5 +9,29 @@ html {
 }
 
 div {
+  display: inline-block;
+  max-width: 400px;
+  vertical-align: center;
+  padding: 1em;
+}
 
+p {
+  display: inline-block;
+}
+
+.btn {
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 7px;
+  background-color: #f2f2f2;
+  color: #000;
+  border: 3px solid #333;
+  padding: .75em;
+}
+
+img {
+  width: 100%;
+  max-width: 25em;
+  padding: 1em;
 }
